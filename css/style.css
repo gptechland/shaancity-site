@@ -25,10 +25,17 @@ body {
 }
 
 .hero {
-    background: url('../images/steel.jpg') no-repeat center center/cover;
-    padding: 150px 20px;
-    text-align: center;
+    background: url('images/hero-banner.jpg') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    text-align: center;
+    position: relative;
+}
+
 }
 
 .hero h1 {
